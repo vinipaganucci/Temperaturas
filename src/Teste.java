@@ -1,18 +1,11 @@
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 
 public class Teste {
 
 	public static void main(String[] args) {
 		
-		ArrayList<TemperaturaMeses> temperaturasMeses = new ArrayList<>();
-		
-		ArrayList<Double> temperaturasOrdenadas = new ArrayList<>();
-		
-		ArrayList<String> meses = new ArrayList<>();
-		
-		
+		ArrayList<TemperaturaMeses> temperaturasMeses = new ArrayList<>();		
 		
 		TemperaturaMeses mes1 = new TemperaturaMeses("Janeiro", 14);
 		TemperaturaMeses mes2 = new TemperaturaMeses("Fevereiro", 18);
